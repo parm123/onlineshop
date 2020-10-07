@@ -152,8 +152,8 @@ $infoMsgs = array_merge( $this->get( 'pageInfo', [] ), $this->get( 'info', [] ) 
 			<nav class="main-sidebar">
 				<div class="sidebar-wrapper">
 
-					<a class="logo" target="_blank" href="https://aimeos.org/update/?type=<?= $this->get( 'aimeosType' ) ?>&version=<?= $this->get( 'aimeosVersion' ) ?>">
-						<img src="https://aimeos.org/check/?type=<?= $this->get( 'aimeosType' ) ?>&version=<?= $this->get( 'aimeosVersion' ) ?>&extensions=<?= $this->get( 'aimeosExtensions' ) ?>" alt="Aimeos update" title="Aimeos update">
+					<a class="logo" target="_blank" href="<?php echo URL::to('admin') ; ?>">
+						<img src="<?php echo url('/storage/adminlogo.png') ; ?>" alt="Online Shop Admin" title="Online Shop Admin">
 					</a>
 
 					<ul class="sidebar-menu basic">

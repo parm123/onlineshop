@@ -25,8 +25,8 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light mb-5">
-		<a class="navbar-brand" href="/">
-			<img src="http://aimeos.org/fileadmin/template/icons/logo.png" height="30" title="Aimeos Logo">
+		<a class="navbar-brand" href="<?php echo URL::to('shop') ; ?>">
+                    <img src="<?php echo url('/storage/logo.png') ; ?>" height="30px" title="Online Shop">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
